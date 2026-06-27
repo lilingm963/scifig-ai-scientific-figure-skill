@@ -146,6 +146,19 @@ The full scientific-figure experience lives at [**SciFig**](https://scifig.ai/?r
 - [AI Models](https://scifig.ai/models?ref=github-skill)
 - [Tutorials](https://scifig.ai/tutorials?ref=github-skill)
 
+## Helper script
+
+Compose a structured figure prompt from the command line:
+
+```bash
+python3 scripts/build_figure_prompt.py \\
+  --topic "multi-omics disease subtyping" \\
+  --flow "data -> AI fusion -> interpretability -> validation" \\
+  --ratio 16:9 --keep "Multi-omics,Biomarker"
+```
+
+It prints a clean, low-text-density prompt for your agent's image generation. For editable SVG/PPTX export and the full workflow, use [SciFig](https://scifig.ai/?ref=github-skill).
+
 ## License
 
 MIT
