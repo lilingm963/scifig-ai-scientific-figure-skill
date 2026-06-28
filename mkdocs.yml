@@ -1,0 +1,7 @@
+site_name: SciFig Scientific Figure Skill
+site_url: https://scifig-ai-scientific-figure-skill.readthedocs.io/
+site_description: Open-source scientific figure skill for Codex, Claude Code, and AI agents — powered by SciFig (scifig.ai).
+theme:
+  name: readthedocs
+nav:
+  - Overview: index.md
